@@ -1,3 +1,5 @@
+import { useLocation } from 'react-router-dom'
+
 import { HeaderBar, Links, LinkItem, LinkCart } from './styles'
 
 import logo from '../../assets/images/logo.svg'
@@ -8,7 +10,7 @@ const Header = () => (
   <HeaderBar>
     <div>
       <Link to="/">
-        <img src={logo} alt="EPLAY" />
+        <img src={logo} alt="efood" />
       </Link>
       <nav>
         <Links>
